@@ -29,6 +29,7 @@ def main_tradicional():
     print(f"El promedio de la temperatura semanal es: {promedio:.2f}")
 
 # Solución en Programación Orientada a Objetos (POO)
+
 class ClimaSemana:
     def __init__(self):
         self.__temperaturas = []
@@ -71,4 +72,4 @@ if __name__ == "__main__":
 
     # Ejecución en Programación Orientada a Objetos
     main_poo()
-
+    
